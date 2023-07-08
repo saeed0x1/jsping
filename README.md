@@ -30,10 +30,10 @@ $ jsping -h
 | `-t` | Timeout (in seconds) for http client (default 15) | `jsping -t 20` |
 | `-ua` | User-Agent to send in requests | `jsping -ua "Chrome..."` |
 | `-url` | Take single url as input | `jsping -url https://example.com` |
-|`-stdin`| Take standard input from terminal | `cat urls.txt | jsping -stdin`
-|`-json`| Output in json format | `cat urls.txt | jsping -stdin -json`
-|`-cookie`| Set the cookie | `cat urls.txt | jsping -stdin -cookie "Cookie:..."`
-|`-o`| Write the output in a file | `cat urls.txt | jsping -stdin -o output.txt`
+|`-stdin`| Take standard input from terminal | `cat urls.txt \| jsping -stdin` |
+|`-json`| Output in json format | `cat urls.txt \| jsping -stdin -json`
+|`-cookie`| Set the cookie | `cat urls.txt \| jsping -stdin -cookie "Cookie:...`
+|`-o`| Write the output in a file | `cat urls.txt \| jsping -stdin -o output.txt`
 | `-version` | Show version number | `jsping -version"` |
 
 
