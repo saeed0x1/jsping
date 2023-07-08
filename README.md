@@ -48,7 +48,6 @@ $ GO111MODULE=on go install github.com/saeed0x1/jsping@latest
 You can download the pre-built [binaries](https://github.com/saeed0x1/jsping/releases/) from the releases page and then move them into your $PATH.
 
 ```
-$ tar xvf jsping_1.0.0_linux_amd64.tar.gz
 $ mv jsping /usr/bin/jsping
 ```
 
