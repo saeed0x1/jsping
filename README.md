@@ -1,14 +1,15 @@
-# jsping
+# jsping 🏓
 
 jsping gathers javascript files from provided url, list of URLS or subdomains. Analysing javascript files give you a lot of insights about your targets.
 
 To see the true potential of this tool pair this tool with [gau](https://github.com/lc/gau) and then [https://github.com/GerbenJavado/LinkFinder](https://github.com/GerbenJavado/LinkFinder)
 
-# Resources
+# Resources 📚
 - [Usage](#usage)
 - [Installation](#installation)
 
-## Usage:
+## Usage  🏇
+
 Examples:
 ```bash
 $ cat urls.txt | jsping -stdin
@@ -37,7 +38,7 @@ $ jsping -h
 | `-version` | Show version number | `jsping -version"` |
 
 
-## Installation
+## Installation 🚀
 ### From Source:
 
 ```
