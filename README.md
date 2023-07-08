@@ -5,9 +5,22 @@ jsping gathers javascript files from provided url, list of URLS or subdomains. A
 To see the true potential of this tool pair this tool with [gau](https://github.com/lc/gau) and then [https://github.com/GerbenJavado/LinkFinder](https://github.com/GerbenJavado/LinkFinder)
 
 # Resources 📚
-- [Usage](#usage)
 - [Installation](#installation)
+- [Usage](#usage)
 
+## Installation 🚀
+### From Source:
+
+```
+$ GO111MODULE=on go install github.com/saeed0x1/jsping@latest
+```
+
+### From Binary
+You can download the pre-built [binaries](https://github.com/saeed0x1/jsping/releases/) from the releases page and then move them into your $PATH.
+
+```
+$ mv jsping /usr/bin/jsping
+```
 ## Usage  🏇
 
 Examples:
@@ -38,19 +51,7 @@ $ jsping -h
 | `-version` | Show version number | `jsping -version"` |
 
 
-## Installation 🚀
-### From Source:
 
-```
-$ GO111MODULE=on go install github.com/saeed0x1/jsping@latest
-```
-
-### From Binary
-You can download the pre-built [binaries](https://github.com/saeed0x1/jsping/releases/) from the releases page and then move them into your $PATH.
-
-```
-$ mv jsping /usr/bin/jsping
-```
 
 ## Useful?
 
